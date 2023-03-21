@@ -1,0 +1,37 @@
+/*Sección Menu*/
+
+section.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 611px;
+    background-color: #F5F5F5;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    }
+    .menu__header{
+        width:10rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .menu__header img{
+        width:25px;
+        height: 25px;
+        margin-right: 0.5rem;
+    }
+    .menu__header h3{
+        font-size: 0.9rem;
+    }
+    .menu__list{
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu__list__item{
+        margin-right: 1.25rem;
+    }
+    .menu__list__item a:hover{
+        color:#5595E9;
+    }

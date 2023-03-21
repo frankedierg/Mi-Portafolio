@@ -1,0 +1,42 @@
+/*Sección Title*/
+
+section.title{
+    display: flex;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.title__profile{
+    width:300px;
+    height: 300px;
+    border-radius: 100%;
+}
+.title__bio{
+    font-size: 52px;
+    line-height: 4rem;
+    color: #464646;
+    font-weight: 800;
+    text-align: left;
+    margin-bottom: 0px;
+
+}
+.title__subsection{
+    font-size: 22px;
+    line-height: 2rem;
+    color: #464646;
+    font-weight: 400;
+    text-align: left;
+}
+.title__network{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title__network__item{
+    margin-right: 1.2rem;
+    text-align: left;
+}

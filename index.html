@@ -5,11 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Referencia de la hoja de estilo de Css -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/menu.css">
+    <link rel="stylesheet" href="./assets/css/title.css">
+    <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="stylesheet" href="./assets/css/skills.css">
+    <link rel="stylesheet" href="./assets/css/hobbies.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Fonte del Proyecto Raleway -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
     <title> Mi Portafolio</title>
 </head>
 <body>
@@ -17,8 +25,8 @@
     <div class="tudo">
     <section class="menu">
         <header class="menu__header">
-            <img src="assets\vector.png">
-            <h3 class="menu__title">Fulana de Tal</h3>
+            <img src="./assets/img/vector.png">
+            <h3 class="menu__title">Frank González</h3>
         </header>
         <nav>
             <ul class="menu__list">
@@ -27,25 +35,24 @@
                 <li class="menu__list__item"><a href="#hobbies">Hobbies</a></li>
                 <li class="menu__list__item"><a href="#formacion">Formación</a></li>
                 <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item"><a href="#contacto">Contacto@fulana.com</a></li>
+                <li class="menu__list__item"><a href="mailto:frankediergb@gmail.com">frankediergb@gmail.com</a></li>
             </ul>
-            <li class="menu__list__item__contato"><a href="#contacto">contacto@fulana.com</a></li>
         </nav>
     </section>
 
     <!-- Sección del Header/Title/Hero -->
     <section class="title">
         <div class="title__div">
-            <img class="title__profile" src="assets\profile.png">
+            <img class="title__profile" src="./assets/img/profile.jpg">
             <div class="title__container">
-                <h2 class="title__bio">Hola, mi nombre es Fulana de Tal y construyo paginas web</h2>
-                <h3 class="title__subsection">Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
+                <h2 class="title__bio">Hola, mi nombre es Frank González Desarrollador web Front -End</h2>
+                <h3 class="title__subsection">Soy formado en licenciatura en Electrónica y actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="assets\arrow.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="assets\arrow.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="assets\arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Github <img src="./assets/img/arrow.png"> </a></li>
+                    <li class="title__network__item"><a href="">Linkedin <img src="./assets/img/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Instagram <img src="./assets/img/arrow.png"></a></li>
+                    <li class="title__network__item"><a href="">Currículo <img src="./assets/img/arrow.png"></a></li>
                 </ul>
             </div>
         </div>
@@ -58,7 +65,7 @@
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia.  </p>
             <p class="about__paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus.</p>
             <!-- Si quieres, pon tú firma acá! -->
-            <img src="assets\signature.png">
+            <img src="./assets/img/mysignature.png">
         </div>
     </section>
 
@@ -68,14 +75,14 @@
             <div class="skills__line">
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"><img src="assets\htlm.png"></li>
+                        <li class="skills__img"><img src="./assets/img/htlm.png"></li>
                         <li class="skills__name"> HTML 5</li>
                     </ul>
                 </div>
 
                 <div class="skills__box">
                     <ul>
-                        <li class="skills__img"> <img src="assets\js_icon.png" alt=""></li>
+                        <li class="skills__img"> <img src="./assets/img/js_icon.png" alt=""></li>
                         <li class="skills__name">Javascript</li>
                     </ul>
                 </div>
@@ -195,7 +202,7 @@
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
             <img class="experience__img" src="assets\decod_print.png">
-            <div class="experience__info"
+            <div class="experience__info">
                 <h2 class="experience__title">Encriptador de texto</h2>
                 <h3 class="experience__text">Challenge Alura Codificador </h3>
                     <div class="experience__description">
@@ -209,7 +216,7 @@
         <div class="experiencie__box">
             <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
             <img class="experience__img" src="assets\forca_print.png">
-            <div class="experience__info"
+            <div class="experience__info">
                 <h2 class="experience__title">Juego creado con HTML y JavaScript</h2>
                 <h3 class="experience__text">Challenge Oracle </h3>
                     <div class="experience__description">
