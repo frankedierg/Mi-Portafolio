@@ -46,54 +46,7 @@ https://en.bem.info/methodology/quick-start/*/
 
 
 
-
-
-/* Experiencia Académica*/
-
-section.academic{
-background-color: #e8f0fd;
-
-}
-.academic__title{
-    text-align: center;
-    padding: 20px 0px;
-}
-.academic__courses{
-    width:100%;
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-.academic__courses__list{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ffffff;
-    width: 300px;
-    height: 300px;
-   
-
-}
-.academic__courses__item__img img{
-   padding: 40px;
-}
-.pedagogica{
-    width:210px;
-}
-.cooperativa{
-    width:180px;
-}
-.bit{
-    width:150px;
-}
-.alura{
-    width:200px;
-}
-/* experiencia*/
-
+  /* experiencia*/
 section.experience{
 
 }
