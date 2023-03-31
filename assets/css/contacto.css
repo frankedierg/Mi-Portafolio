@@ -1,0 +1,65 @@
+/*Contacto*/
+
+section.formcontato{
+    background-color:#EAF2FD;
+    padding: 100px;
+    }
+    .formcontato__img{
+        width:360px;
+    }
+    .formcontato__contacto{
+        display: flex;
+        
+    }
+    .formcontato__text{
+        margin-left: 20px;
+    }
+    .formcontato__title{
+        line-height: 1.7em;
+    }
+    .formcontato__subtext{
+        line-height: 1.5em;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .formcontato__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+        margin-top: 20px;
+    }
+    .formcontato__input{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid 2px #C8C8C8;
+        color: #464646;
+        outline: none;
+        
+    }
+    
+    .formcontato__textarea{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: solid 2px #C8C8C8;
+        color:#464646;
+        outline: none;
+        padding-top: 10px;
+    }
+    .formcontacto__boton{
+        width: 150px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #2A7AE4;
+        color: #fff;
+        border: solid 2px #2A7AE4;
+    }
+    .formcontacto__boton:hover{
+        background-color: #F5F5F5;
+        color: #2A7AE4;
+        border: solid 1px #2A7AE4;
+    }
